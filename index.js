@@ -12,7 +12,7 @@ const port = 3000
 app.use(express.json());
 
 const swaggerUi = require('swagger-ui-express');
-swaggerDocument = require('../swagger.json');
+swaggerDocument = require('./swagger.json');
 app.use( '/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 
@@ -33,6 +33,6 @@ app.use('/calc', calcRoute);
 
 
 app.listen(port, () => {
-    console.log(`Example app listening
+    console.log(`NEW CHANGE LOG GITHUB ACTIONS Example app listening
     at http://localhost:${port}`)
     })

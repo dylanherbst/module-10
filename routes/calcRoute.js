@@ -1,7 +1,7 @@
 
 const express = require('express');
 const router = express.Router();
-const calcControl = require("../../controller/calcController");
+const calcControl = require("../controller/calcController");
 
 
     router.get('/add', (req, res) => {

@@ -1,7 +1,6 @@
 
-const Calculator = require('../libraries/calcLibrary');
-
-const Logger = require('../libraries/log');
+const Calculator = require('../models/calcLibrary');
+const Logger = require('../models/log');
 
 let myLog = new Logger()
 let myCalc = new Calculator(myLog);
