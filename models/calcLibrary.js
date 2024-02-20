@@ -8,7 +8,7 @@ class Calculator {
 
     add(num1, num2) {
     const value = num1 + num2
-    this.logger.log(`Calculator:${this.id}`, value);
+    this.logger.log(`Calculator :${this.id}`, value);
     return value;
     }
 
